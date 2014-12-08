@@ -1,0 +1,62 @@
+/* 
+Styles for demo page only
+*/
+
+$background-color: #bfbfbf;
+$color: #242424;
+
+[class^="col-"] {
+    background-color: $background-color;
+    color: $color;
+    min-height: 50px;
+}
+
+.outer {
+    background-color: lighten($background-color,10%);
+}
+
+.fixed {
+    background-color: $color;
+    color: #fff;
+}
+
+.fixed [class^="col-"] {
+    background-color: transparent;
+    color: #fff;
+}
+ 
+.section-header {
+    background-color: $color;
+    color: #fff;
+}
+
+.section-header h1 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+p:first-of-type {
+    margin-top: 0;
+}
+
+p:last-of-type {
+    margin-bottom: 0;
+}
+
+.fixed h1 {
+    margin: 0;
+}
+
+h1, .slab-700 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.carousel-outer {
+    padding-top: 20px;
+}
+
+.row.carousel-outer [class^="col-"] {
+    background-color: transparent;
+}

@@ -1,0 +1,265 @@
+/* 
+12 Column Mobile First Gird System
+*/
+
+// Grid variables
+$desktop: 1140px;
+$tablet: 768px;
+$mobile: 550px;
+$gutter: 14px;
+$padding: 6px;
+
+// Common to all grids
+.row, .row-no-gutter {
+    max-width: $desktop;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.row:after, .row-no-gutter:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+[class^="col-"] {
+    float: left;
+    margin-bottom: $gutter;
+    width: 100%;
+}
+
+// Columns with verticle gutters
+.row [class^="col-"],  {
+    @media screen and (min-width: $tablet) {
+        margin-left: $gutter/2;
+        margin-right: $gutter/2;
+    }
+}
+
+.row .col-1 { 
+    @media screen and (min-width: $tablet) {
+        width: calc(8.3333333% - #{$gutter});
+    }
+}
+
+.row .col-2 { 
+    @media screen and (min-width: $tablet) {
+        width: calc(16.6666666% - #{$gutter});
+    }
+}
+
+.row .col-3 { 
+    @media screen and (min-width: $tablet) {
+        width: calc(25% - #{$gutter});
+    }
+}
+
+.row .col-4 {
+    @media screen and (min-width: $tablet) {
+        width: calc(33.3333333% - #{$gutter});
+    }
+}
+
+.row .col-5 { 
+    @media screen and (min-width: $tablet) {
+        width: calc(41.6666666% - #{$gutter});
+    }
+}
+
+.row .col-6 { 
+    @media screen and (min-width: $tablet) {
+        width: calc(50% - #{$gutter});
+    }
+}
+
+.row .col-7 { 
+    @media screen and (min-width: $tablet) {
+        width: calc(58.3333333% - #{$gutter});
+    }
+}
+
+.row .col-8 { 
+    @media screen and (min-width: $tablet) {
+        width: calc(66.6666666% - #{$gutter});
+    }
+}
+
+.row .col-9 { 
+    @media screen and (min-width: $tablet) {
+        width: calc(75% - #{$gutter});
+    }
+}
+
+.row .col-10 { 
+    @media screen and (min-width: $tablet) {
+        width: calc(83.3333333% - #{$gutter});
+    }
+}
+
+.row .col-11 { 
+    @media screen and (min-width: $tablet) {
+        width: calc(91.6666666% - #{$gutter});
+    }
+}
+
+.row .col-12 { 
+    @media screen and (min-width: $tablet) {
+        width: calc(100% - #{$gutter});
+    }
+}
+
+// Columns without verticle gutters
+.row-no-gutter {
+    @media screen and (min-width: $tablet) {
+       box-sizing: border-box;
+        padding-left: $gutter/2;
+        padding-right: $gutter/2; 
+    }
+}
+
+.row-no-gutter .col-1 { 
+    @media screen and (min-width: $tablet) {
+        width: 8.3333333%;
+    }
+}
+
+.row-no-gutter .col-2 { 
+    @media screen and (min-width: $tablet) {
+        width: 16.6666666%;
+    }
+}
+
+.row-no-gutter .col-3 { 
+    @media screen and (min-width: $tablet) {
+        width: 25%;
+    }
+}
+
+.row-no-gutter .col-4 {
+    @media screen and (min-width: $tablet) {
+        width: 33.3333333%;
+    }
+}
+
+.row-no-gutter .col-5 { 
+    @media screen and (min-width: $tablet) {
+        width: 41.6666666%;
+    }
+}
+
+.row-no-gutter .col-6 { 
+    @media screen and (min-width: $tablet) {
+        width: 50%;
+    }
+}
+
+.row-no-gutter .col-7 { 
+    @media screen and (min-width: $tablet) {
+        width: 58.3333333%;
+    }
+}
+
+.row-no-gutter .col-8 { 
+    @media screen and (min-width: $tablet) {
+        width: 66.6666666%;
+    }
+}
+
+.row-no-gutter .col-9 { 
+    @media screen and (min-width: $tablet) {
+        width: 75%;
+    }
+}
+
+.row-no-gutter .col-10 { 
+    @media screen and (min-width: $tablet) {
+        width: 83.3333333%;
+    }
+}
+
+.row-no-gutter .col-11 { 
+    @media screen and (min-width: $tablet) {
+        width: 91.6666666%;
+    }
+}
+
+.row-no-gutter .col-12 { 
+    @media screen and (min-width: $tablet) {
+        width: 100%;
+    }
+}
+
+// Fixed top bar
+.fixed {
+    position: fixed;
+    width: 100%; 
+    z-index: 100;
+}
+
+@media screen and (max-width: $tablet) {
+    .row .fixed-nav { 
+        position: absolute;     
+        top: 0;
+        //background-color:transparent;
+    }
+}
+
+.fixed-clear {
+    padding-top: $gutter;
+}
+
+// Grid default modifiers
+.row.padding [class^="col-"], .row-no-gutter.padding [class^="col-"], 
+[class^="col-"].padding {
+    box-sizing: border-box;
+    padding: $padding;
+}
+
+.no-bottom-gutter [class^="col-"] {
+    margin-bottom: 0;
+}
+
+.top-gutter [class^="col-"] {
+    margin-top: $gutter;
+}
+
+.outer {
+    width: 100%;
+    margin-bottom: $gutter;
+}
+
+.outer .row:last-of-type [class^="col-"],
+.outer .row-no-gutter:last-of-type [class^="col-"],
+.fixed .row:last-of-type [class^="col-"], 
+.fixed .row-no-gutter:last-of-type [class^="col-"] {
+    margin-bottom: 0;
+}
+
+.shift-right {
+    float: right;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.vcenter {
+    width: 100%; /* Firefox needs this */
+    height: 100%; /* Height can be anything */
+    /* WebKit (Chrome & Safari) */
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    /* Firefox */
+    display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+    /* IE */
+    display: -ms-box;
+    -ms-box-pack: center;
+    -ms-box-align: center;
+    /* Native CSS */
+    display: box;
+    box-pack: center;
+    box-align: center;
+}

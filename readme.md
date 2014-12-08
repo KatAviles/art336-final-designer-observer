@@ -1,0 +1,2 @@
+# Boilerplate & Framework
+As you start a new project you should use this boilerplate and framework as a beginning point. As you learn more throughout the semester new features will be added to the boilerplate and framework.

@@ -1,0 +1,346 @@
+{
+  "id": "81535670",
+  "cfgVersion": 1,
+  "name": "art336-boilerplate",
+  "files": {
+    "e670505b": {
+      "id": "e670505b",
+      "pid": "81535670",
+      "name": "main.scss",
+      "input": "demo/scss/main.scss",
+      "customOutput": false,
+      "type": "Scss",
+      "config": {
+        "autoCompile": true,
+        "lineNumbers": false,
+        "unixNewlines": false,
+        "sourcemaps": false,
+        "debug": false,
+        "compass": false,
+        "fullCompass": false,
+        "outputStyle": "expanded",
+        "autoprefixer": true
+      }
+    },
+    "40b7bc0f": {
+      "id": "40b7bc0f",
+      "pid": "81535670",
+      "name": "main.scss",
+      "input": "scss/main.scss",
+      "customOutput": false,
+      "type": "Scss",
+      "config": {
+        "autoCompile": true,
+        "lineNumbers": false,
+        "unixNewlines": false,
+        "sourcemaps": false,
+        "debug": false,
+        "compass": false,
+        "fullCompass": false,
+        "outputStyle": "compressed",
+        "autoprefixer": true
+      }
+    },
+    "5d6f7463": {
+      "id": "5d6f7463",
+      "pid": "81535670",
+      "name": "main.js",
+      "input": "demo/js/main.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "bb1991b6": {
+      "id": "bb1991b6",
+      "pid": "81535670",
+      "name": "plugins.js",
+      "input": "demo/js/plugins.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "8ab6a33d": {
+      "id": "8ab6a33d",
+      "pid": "81535670",
+      "name": "readme.md",
+      "input": "demo/readme.md",
+      "customOutput": false,
+      "type": "Md",
+      "config": {
+        "autoCompile": false,
+        "sanitize": false,
+        "gfm": true
+      }
+    },
+    "50ef0fa9": {
+      "id": "50ef0fa9",
+      "pid": "81535670",
+      "name": "main.js",
+      "input": "js/main.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "d6dc2db1": {
+      "id": "d6dc2db1",
+      "pid": "81535670",
+      "name": "plugins.js",
+      "input": "js/plugins.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "6049d2e3": {
+      "id": "6049d2e3",
+      "pid": "81535670",
+      "name": "webfont.js",
+      "input": "js/vendor/webfont.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "2e8f9ea2": {
+      "id": "2e8f9ea2",
+      "pid": "81535670",
+      "name": "readme.md",
+      "input": "readme.md",
+      "customOutput": false,
+      "type": "Md",
+      "config": {
+        "autoCompile": false,
+        "sanitize": false,
+        "gfm": true
+      }
+    }
+  },
+  "imports": {
+    "ce0af603": {
+      "id": "ce0af603",
+      "pid": "81535670",
+      "path": "scss/framework/_normalize.scss",
+      "parents": [
+        "40b7bc0f",
+        "e670505b"
+      ]
+    },
+    "0a43dc13": {
+      "id": "0a43dc13",
+      "pid": "81535670",
+      "path": "scss/framework/_grid.scss",
+      "parents": [
+        "40b7bc0f",
+        "e670505b"
+      ]
+    },
+    "dfb76106": {
+      "id": "dfb76106",
+      "pid": "81535670",
+      "path": "scss/framework/_nav.scss",
+      "parents": [
+        "40b7bc0f",
+        "e670505b"
+      ]
+    },
+    "497339e9": {
+      "id": "497339e9",
+      "pid": "81535670",
+      "path": "scss/framework/_carousel.scss",
+      "parents": [
+        "40b7bc0f",
+        "e670505b"
+      ]
+    },
+    "d1e90346": {
+      "id": "d1e90346",
+      "pid": "81535670",
+      "path": "scss/_globals.scss",
+      "parents": [
+        "40b7bc0f"
+      ]
+    },
+    "e8485c04": {
+      "id": "e8485c04",
+      "pid": "81535670",
+      "path": "scss/_base.scss",
+      "parents": [
+        "40b7bc0f"
+      ]
+    },
+    "959025ff": {
+      "id": "959025ff",
+      "pid": "81535670",
+      "path": "scss/_layout.scss",
+      "parents": [
+        "40b7bc0f"
+      ]
+    },
+    "a7f011ff": {
+      "id": "a7f011ff",
+      "pid": "81535670",
+      "path": "scss/_module.scss",
+      "parents": [
+        "40b7bc0f"
+      ]
+    },
+    "7b63e0f4": {
+      "id": "7b63e0f4",
+      "pid": "81535670",
+      "path": "scss/_state.scss",
+      "parents": [
+        "40b7bc0f"
+      ]
+    },
+    "3cf0455e": {
+      "id": "3cf0455e",
+      "pid": "81535670",
+      "path": "js/vendor/fitter-happier-text.js",
+      "parents": [
+        "bb1991b6"
+      ]
+    },
+    "02945a4a": {
+      "id": "02945a4a",
+      "pid": "81535670",
+      "path": "js/vendor/equal-height.js",
+      "parents": [
+        "bb1991b6"
+      ]
+    },
+    "75bf3287": {
+      "id": "75bf3287",
+      "pid": "81535670",
+      "path": "scss/framework/_demo.scss",
+      "parents": [
+        "e670505b"
+      ]
+    },
+    "df7934e9": {
+      "id": "df7934e9",
+      "pid": "81535670",
+      "path": "scss/framework/_modal.scss",
+      "parents": [
+        "e670505b",
+        "40b7bc0f"
+      ]
+    },
+    "4a8d944d": {
+      "id": "4a8d944d",
+      "pid": "81535670",
+      "path": "scss/framework/_collapse.scss",
+      "parents": [
+        "40b7bc0f",
+        "e670505b"
+      ]
+    },
+    "5bfd207e": {
+      "id": "5bfd207e",
+      "pid": "81535670",
+      "path": "scss/framework/_lightbox.scss",
+      "parents": [
+        "e670505b",
+        "40b7bc0f"
+      ]
+    }
+  },
+  "images": {
+    "cc953bf5": {
+      "id": "cc953bf5",
+      "pid": "81535670",
+      "path": "demo/img/fullimage1.jpg",
+      "size": 163675,
+      "name": "fullimage1.jpg",
+      "type": "Jpg",
+      "initialSize": 163675,
+      "status": "NOT_OPTIMIZED"
+    },
+    "1a6c92ec": {
+      "id": "1a6c92ec",
+      "pid": "81535670",
+      "path": "demo/img/fullimage2.jpg",
+      "size": 149197,
+      "name": "fullimage2.jpg",
+      "type": "Jpg",
+      "initialSize": 149197,
+      "status": "NOT_OPTIMIZED"
+    },
+    "e99e5173": {
+      "id": "e99e5173",
+      "pid": "81535670",
+      "path": "demo/img/fullimage3.jpg",
+      "size": 155634,
+      "name": "fullimage3.jpg",
+      "type": "Jpg",
+      "initialSize": 155634,
+      "status": "NOT_OPTIMIZED"
+    },
+    "170ee07d": {
+      "id": "170ee07d",
+      "pid": "81535670",
+      "path": "demo/img/fullimage4.jpg",
+      "size": 50895,
+      "name": "fullimage4.jpg",
+      "type": "Jpg",
+      "initialSize": 50895,
+      "status": "NOT_OPTIMIZED"
+    }
+  },
+  "config": {
+    "watch": true,
+    "liveRefresh": true,
+    "liveRefreshDelay": 0,
+    "filterPatterns": "",
+    "useCustomServer": true,
+    "customServerUrl": "http://framework.com:8888/",
+    "cssPath": "css/",
+    "jsPath": "js/",
+    "htmlPath": "html/",
+    "minJsPath": "",
+    "htmlExtension": ".html",
+    "cssPathType": "REPLACE_TYPE",
+    "htmlPathType": "REPLACE_TYPE",
+    "jsPathType": "REPLACE_TYPE",
+    "minJsPathType": "RELATIVE_FILEDIR",
+    "htmlTypes": "jade, haml, slim, markdown, md",
+    "cssTypes": "less, sass, stylus, scss, styl",
+    "jsTypes": "coffee, coffeescript, coffeescripts, ls, livescript, livescripts",
+    "cssPreprocessorPath": "",
+    "htmlPreprocessorPath": "",
+    "jsPreprocessorPath": "",
+    "minJsPreprocessorPath": "",
+    "autoprefixerBrowsers": "",
+    "ftpHost": "",
+    "ftpPort": "21",
+    "ftpRemotePath": "",
+    "ftpIgnorePreprocessorFiles": true,
+    "ftpType": "FTP",
+    "ftpExcludePatterns": "",
+    "ftpSecure": false,
+    "ftpPassword": "",
+    "ftpUsername": ""
+  }
+}

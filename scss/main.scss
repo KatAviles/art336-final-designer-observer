@@ -1,0 +1,20 @@
+/*
+Main Rules
+    This file simply compiles all the seperate files into a single file that will be outputted as main.css.
+*/
+
+// Framework CSS
+@import "framework/normalize";
+@import "framework/grid";
+@import "framework/nav";
+@import "framework/carousel";
+@import "framework/modal";
+@import "framework/collapse";
+@import "framework/lightbox";
+
+// Your CSS
+@import "globals";
+@import "base";
+@import "layout";
+@import "module";
+@import "state";

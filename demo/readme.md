@@ -1,0 +1,2 @@
+# Project & Demo Boilerplate
+As you start a new demo or project you should use this boilerplate as a beginning point. As you learn more throughout the semester new features will be added to the boilerplate.
