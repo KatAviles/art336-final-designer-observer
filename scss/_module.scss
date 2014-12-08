@@ -18,6 +18,25 @@ header[role="banner"] {
     float: right;
 }
 
+//social icons
+
+.contact svg {
+    float: center;
+    width: 30px;
+    height: 30px;
+}
+
+.contact svg path { 
+    fill: $background-color;
+    transition: fill 400ms linear;
+}
+
+.contact a:hover svg path { 
+    fill: lighten($grid, 12%);
+    transition: fill 400ms linear;
+}
+
+
 //submenu
 .nav li a {
   display: block;
