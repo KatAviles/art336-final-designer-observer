@@ -14,3 +14,34 @@ Globals
     font-size: $size;
     font-size: calculateRem($size);
 }
+
+
+@mixin header-font {
+    font-family: "alternate-gothic-no-2-d",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@mixin body-font-regular {
+    font-family: "adelle-sans",sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+@mixin body-font-italic {
+    font-family: "adelle-sans",sans-serif;
+    font-style: italic;
+    font-weight: 300;
+}
+
+@mixin body-font-bold {
+    font-family: "adelle-sans",sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+$background-color: #B2E2F1;
+$text-color: #000;
+$header-color: #FAF1C4;
+$grid: #DA9B8D;
+
