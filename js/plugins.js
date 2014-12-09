@@ -26,4 +26,4 @@
 
 // /@prepros-append vendor/webfont.js
 // /@prepros-append vendor/fitter-happier-text.js
-// /@prepros-append vendor/equal-height.js
+// @prepros-append vendor/equal-height.js
