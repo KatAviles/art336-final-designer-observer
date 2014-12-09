@@ -5,20 +5,55 @@ Module Rules
 */
 
 
-header[role="banner"] {
-    //background-color: $header-color;
-    padding: 12px;
+header[role="header"] {
+    background-color: $header-color;
+    margin: auto;
+    padding: auto;
 }
 
-.contributors {
-    float: right;
+a:link {
+    text-decoration: none;
 }
 
-.cont-places {
-    float: right;
+a:hover {
+    color: lighten($text-color, 10%);
+}
+
+.nav {
+    margin: auto;
+    padding: 5px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+.headline {
+    background: $header-color;
+    margin: 0;
+    margin-top: 0;
+    padding: 5px;
 }
 
 //social icons
+
+.contact {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.contact ul li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
 
 .contact svg {
     float: center;
@@ -36,45 +71,3 @@ header[role="banner"] {
     transition: fill 400ms linear;
 }
 
-
-//submenu
-.nav li a {
-  display: block;
-  padding: 10px 12px;
-  text-decoration: none;
-  color: $text-color;
-  transition: all ease .5s; 
-}
-
-.nav:hover li a {
-  opacity: .5;
-  transition: all ease .5s;
-}
-
-.nav li:hover a {
-  opacity: 1;
-}
-
-.submenu {
-  position: absolute; /*1*/
-  border-top: 15px solid transparent; /*2*/
-  left: -9999px /*3*/
-}
-
-.nav li:hover > .submenu {
-  left: 0;
-}
-
-.submenu:after {
-   position: relative;
-   content: "";
-   top: 10px;
-   margin: 0 -5px 4px 5px;
-   /* borders to make down arrow */
-	 border-left: 5px solid transparent;
-	 border-right: 5px solid transparent;
-	 border-top: 5px solid #3498DB;
-   opacity: .7;
-   transition: all ease .3s;
-}
- 
