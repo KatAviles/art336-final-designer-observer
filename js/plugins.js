@@ -27,5 +27,9 @@
 // @prepros-append vendor/height-offset.js
 // /@prepros-append vendor/webfont.js
 // /@prepros-append vendor/fitter-happier-text.js
+<<<<<<< HEAD
 // /@prepros-append vendor/equal-height.js
 
+=======
+// @prepros-append vendor/equal-height.js
+>>>>>>> FETCH_HEAD
