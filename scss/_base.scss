@@ -14,22 +14,22 @@ body {
     @include fontSize(13px);
     padding: auto;
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 1000px;
     width: 100%;
 }
-
-h1, h2 {
-    
+header {
+    width: inherit;  
 }
 
 img { 
     height: auto;
     max-width: 100%;
-    width: 400px;
+    width: 500px;
 }
 
 footer {
     background: $header-color;
-    padding: 5px;
-    margin-bottom: 0;
+    padding-top: 15px;
+    padding-left: 10px;
+    margin-: auto;
 }
